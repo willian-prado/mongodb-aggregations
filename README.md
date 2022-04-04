@@ -1,52 +1,30 @@
-### Termos e acordos
+## Projeto Aggregations
 
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
+> Sexto projeto do módulo de Back-end do curso de desenvolvimento web da Trybe.
 
----
+Em nosso último projeto focado exclusivamente em MongoDB trabalhamos com o Aggregation Framework, um conjunto de ferramentas destinadas ao processamento de dados por meio de pipelines. Por meio dele podemos agrupar dados de múltiplos documentos, realizar várias operações sobre eles e retornar um resultado processado.
 
-# Boas vindas ao repositório do projeto de Aggregations!
+### Objetivo do projeto
 
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo e, se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
+Revisar todos os conceitos aprendidos até o momento, construindo um banco de dados chamado Dataflights e elaborar _queries_ em `mongo` para:
 
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
+- Consultar a coleção do projeto, usando vários campos para filtrar essa busca, 
+- Deletar alguns voos conforme outros filtros.
+- Contar voos compreendidos nos filtros.
 
----
+### Principais habilidades desenvolvidas nesse trabalho:
 
-# Sumário
-
-- [Habilidades](#habilidades)
-- [Entregáveis](#entregáveis)
-  - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
-  - [Desenvolvimento](#desenvolvimento)
-  - [Data de entrega](#data-de-entrega)
-- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
-  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
-  - [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
-- [Como desenvolver](#como-desenvolver)
-  - [Linter](#linter)
-  - [Instrução para estrutura dos arquivos](#Instrução-para-estrutura-dos-arquivos)
-  - [Instruções para restaurar o banco de dados `aggregations`](#Instruções-para-restaurar-o-banco-de-dados-aggregations)
-  - [Execução de testes unitários](#execução-de-testes-unitários)
-- [Requisitos do projeto](#requisitos-do-projeto)
-  - [Lista de requisitos](#lista-de-requisitos)
-    - [Desafio 1](#Desafio-1)
-    - [Desafio 2](#Desafio-2)
-    - [Desafio 3](#Desafio-3)
-    - [Desafio 4](#Desafio-4)
-    - [Desafio 5](#Desafio-5)
-    - [Desafio 6](#Desafio-6)
-    - [Desafio 7](#Desafio-7)
-    - [Desafio 8](#Desafio-8)
-    - [Desafio 9](#Desafio-9)
-    - [Desafio 10](#Desafio-10)
-    - [Desafio 11](#Desafio-11)
-    - [Desafio 12](#Desafio-12)
-    - [Desafio 13](#Desafio-13)
-    - [Desafio 14](#Desafio-14)
-- [Avisos Finais](#avisos-finais)
+- Buscar documentos no banco
+- Usar filtros na busca
+- Deletar documentos conforme filtro
+- Contar documentos compreendidos nos filtros pedidos
+- Inserir documentos no banco
 
 ---
+
+### Lista de requisitos propostos pela Trybe:
+
+#### Obrigatórios
 
 # Habilidades
 Neste projeto você será capaz de:

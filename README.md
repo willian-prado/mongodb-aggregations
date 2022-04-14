@@ -21,21 +21,6 @@ Para esse projeto, diferentemente dos outros, serão usadas várias coleções, 
 
 ---
 
-## Instruções para restaurar o banco de dados `aggregations`
-
-1. Abra o terminal e conecte-se à sua instância local do **MongoDB**. Se você receber uma mensagem de erro com uma mensagem como ***Connection refused***, tente reiniciar sua instância ([veja como fazer isso aqui](https://app.betrybe.com/course/back-end/introducao-ao-mongodb/mongodb-introducao/d396e5a2-d5c9-4f3a-b723-1a1d3ea06b3d/conteudos/b9646f17-77fc-401e-bab5-421fdc37428e/conectando/f63aa7aa-ac8f-4253-bf76-7fc71e4eac5a?use_case=side_bar)).
-
-2. Agora que você tem certeza de que a sua instância está no ar e que você está conectado a ela, digite `exit`. Você voltará ao terminal para iniciar a importação dos dados.
-
-3. Na raiz do diretório do projeto, execute o seguinte comando que fará a restauração da base de dados `aggregations`:
-    ```sh
-    DBNAME=aggregations ./scripts/resetdb.sh assets
-    ```
-
-  * A execução desse script criará um banco de dados chamado `aggregations` e importará todas as suas coleções.
-
----
-
 ### Lista de requisitos propostos pela Trybe:
 
 #### Obrigatórios

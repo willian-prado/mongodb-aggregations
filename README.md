@@ -13,7 +13,7 @@ Para esse projeto, diferentemente dos outros, serão usadas várias coleções, 
 
 **Principais habilidades desenvolvidas nesse trabalho**
 
-- Executar buscas complexas no banco mongoDB
+- Executar buscas complexas no banco MongoDB
 - Usar os operadores de aggregation para fazer uma pipeline  
 
 **Tecnologia utilizada**

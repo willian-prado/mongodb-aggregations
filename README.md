@@ -4,7 +4,7 @@
 
 **Contexto**
 
-Em nosso último projeto focado exclusivamente em MongoDB trabalhamos com o Aggregation Framework, um conjunto de ferramentas destinadas ao processamento de dados por meio de pipelines. Por meio dele podemos agrupar dados de múltiplos documentos, realizar várias operações sobre eles e retornar um resultado processado.
+Neste que é o último projeto focado exclusivamente em MongoDB trabalhamos com o Aggregation Framework, um conjunto de ferramentas destinadas ao processamento de dados por meio de pipelines. Por meio dele podemos agrupar dados de múltiplos documentos, realizar várias operações sobre eles e retornar um resultado processado.
 
 **Objetivo do projeto**
 

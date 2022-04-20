@@ -1,10 +1,10 @@
 ## Projeto Aggregations
 
-> Sexto projeto do módulo de Back-end do curso de desenvolvimento web da Trybe.
+> Sexto projeto do módulo de Back-end do curso de desenvolvimento web da [Trybe](https://www.betrybe.com/)
 
 **Contexto**
 
-Este é o último projeto focado exclusivamente em MongoDB e trabalhamos com o Aggregation Framework, um conjunto de ferramentas destinadas ao processamento de dados por meio de pipelines. Por meio dele, podemos agrupar dados de múltiplos documentos, realizar várias operações sobre eles e retornar um resultado processado.
+Este é o último projeto focado exclusivamente em MongoDB e nele trabalhamos com o Aggregation Framework, um conjunto de ferramentas destinadas ao processamento de dados por meio de pipelines. Utilizando ele podemos agrupar dados de múltiplos documentos, realizar várias operações sobre eles e retornar um resultado processado.
 
 **Objetivo do projeto**
 
@@ -256,3 +256,7 @@ O resultado da sua query deve ter exatamente o seguinte formato (incluindo a ord
 { "bikeId" : <bike_id>, "duracaoMedia" : <duracao_media> }
 { "bikeId" : <bike_id>, "duracaoMedia" : <duracao_media> }
 ```
+
+---
+
+[Ir para a lista de projetos](https://github.com/willian-prado/trybe-records)
